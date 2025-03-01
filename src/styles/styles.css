@@ -24,6 +24,9 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+.header {
+  padding-top: 70px;
+}
 .nav-link {
   color: var(--color-text-navi);
 }
@@ -31,14 +34,26 @@ body {
 .nav-link:hover {
   color: var(--color-text-hover);
 }
-
+.gallery {
+  padding-top: 90px;
+  padding-bottom: 65px;
+}
+.gallery-list {
+  margin-bottom: 95px;
+}
+.card-photo {
+  margin-bottom: 60px;
+}
 .card-category {
   font-family: var(--font-secondary);
   color: var(--color-text-category);
   font-weight: 300;
+  display: inline-block;
+  margin-bottom: 30px;
 }
 .card-title {
   font-size: 30px;
+  margin-bottom: 40px;
 }
 .gallery-button {
   border: 1px solid var(--color-text-primary);
